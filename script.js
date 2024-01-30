@@ -8,7 +8,7 @@ function requestApi(searchTerm){
     fetch(url) // fazer requisicoes de api
         .then((response) => response.json())
         .then((result) => displayResults(result))
-}
+};
 
 function displayResults(results) {
     resultPlaylist.classList.add('hidden');
